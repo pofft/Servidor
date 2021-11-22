@@ -1,0 +1,496 @@
+<meta>
+	 <min_mta_version server="1.5.6-9.18728" client="1.5.6-9.18728" />
+	<script src="edit.lua" type="shared" cache="false" /> 
+    <script src="client.lua" type="client" cache="false" /> 
+    <script src="server.lua" type="server" /> 
+
+
+	<file src="arquivos/shaders/texReplace.fx"/>
+	<file src="arquivos/shaders/mta-helper.fx"/>
+    <file src="arquivos/shaders/replace.fx"/>
+	<file src="arquivos/shaders/colors.fx"/>
+
+    <!-- Masculina -->
+	<file src="arquivos/7/cabelo/cabelo1/1.png" cache="false" />
+	<file src="arquivos/7/cabelo/cabelo1/2.png" cache="false" />
+	<file src="arquivos/7/cabelo/cabelo1/3.png" cache="false" />
+	<file src="arquivos/7/cabelo/cabelo1/4.png" cache="false" />
+	<file src="arquivos/7/cabelo/cabelo2/1.png" cache="false" />
+	<file src="arquivos/7/cabelo/cabelo2/2.png" cache="false" />
+	<file src="arquivos/7/cabelo/cabelo2/3.png" cache="false" />
+	<file src="arquivos/7/cabelo/cabelo2/4.png" cache="false" />
+	<file src="arquivos/7/cabelo/cabelo2/5.png" cache="false" />
+	<file src="arquivos/7/cabelo/cabelo3/1.png" cache="false" />
+	<file src="arquivos/7/cabelo/cabelo3/2.png" cache="false" />
+	<file src="arquivos/7/cabelo/cabelo3/3.png" cache="false" />
+	<file src="arquivos/7/cabelo/cabelo3/4.png" cache="false" />
+	<file src="arquivos/7/cabelo/cabelo4/1.png" cache="false" />
+	<file src="arquivos/7/cabelo/cabelo4/2.png" cache="false" />
+	<file src="arquivos/7/cabelo/cabelo4/3.png" cache="false" />
+	<file src="arquivos/7/cabelo/cabelo4/4.png" cache="false" />
+	<file src="arquivos/7/cabelo/cabelo4/5.png" cache="false" />
+	<file src="arquivos/7/cabelo/cabelo4/6.png" cache="false" />
+	<file src="arquivos/7/cabelo/bone/1.png" cache="false" />
+	<file src="arquivos/7/cabelo/bone/2.png" cache="false" />
+	<file src="arquivos/7/cabelo/bone/3.png" cache="false" />
+	<file src="arquivos/7/cabelo/bone/4.png" cache="false" />
+	<file src="arquivos/7/cabelo/bone/5.png" cache="false" />
+	<file src="arquivos/7/cabelo/bone/6.png" cache="false" />
+	<file src="arquivos/7/cabelo/bone/7.png" cache="false" />
+	<file src="arquivos/7/cabelo/chapeu.pescador/1.png" cache="false" />
+	<file src="arquivos/7/cabelo/chapeu.pescador/2.png" cache="false" />
+	<file src="arquivos/7/cabelo/chapeu.pescador/3.png" cache="false" />
+	<file src="arquivos/7/cabelo/chapeu.pescador/4.png" cache="false" />
+	<file src="arquivos/7/cabelo/chapeu.pescador/5.png" cache="false" />
+
+	<!-- Camisa 1 -->
+	<file src="arquivos/7/camisa/camisa1/1.png" cache="false" />
+	<file src="arquivos/7/camisa/camisa1/2.png" cache="false" />
+	<file src="arquivos/7/camisa/camisa1/3.png" cache="false" />
+	<file src="arquivos/7/camisa/camisa1/4.png" cache="false" />
+	<file src="arquivos/7/camisa/camisa1/5.png" cache="false" />
+	<file src="arquivos/7/camisa/camisa1/6.png" cache="false" />
+	<file src="arquivos/7/camisa/camisa1/7.png" cache="false" />
+	<file src="arquivos/7/camisa/camisa1/8.png" cache="false" />
+	
+	<!-- Camisa 2 -->
+	<file src="arquivos/7/camisa/camisa2/1.png" cache="false" />
+	<file src="arquivos/7/camisa/camisa2/2.png" cache="false" />
+	<file src="arquivos/7/camisa/camisa2/3.png" cache="false" />
+	<file src="arquivos/7/camisa/camisa2/4.png" cache="false" />
+	<file src="arquivos/7/camisa/camisa2/5.png" cache="false" />
+	<file src="arquivos/7/camisa/camisa2/6.png" cache="false" />
+	<file src="arquivos/7/camisa/camisa2/7.png" cache="false" />
+	<file src="arquivos/7/camisa/camisa2/8.png" cache="false" />
+	<file src="arquivos/7/camisa/camisa2/9.png" cache="false" />
+	<file src="arquivos/7/camisa/camisa2/10.png" cache="false" />
+	<file src="arquivos/7/camisa/camisa2/11.png" cache="false" />
+	<file src="arquivos/7/camisa/camisa2/12.png" cache="false" />
+	<file src="arquivos/7/camisa/camisa2/13.png" cache="false" />
+	<file src="arquivos/7/camisa/camisa2/14.png" cache="false" />
+	<file src="arquivos/7/camisa/camisa2/15.png" cache="false" />
+	<file src="arquivos/7/camisa/camisa2/16.png" cache="false" />
+	<file src="arquivos/7/camisa/camisa2/17.png" cache="false" />
+	<file src="arquivos/7/camisa/camisa2/18.png" cache="false" />
+	<file src="arquivos/7/camisa/camisa2/19.png" cache="false" />
+	<file src="arquivos/7/camisa/camisa2/20.png" cache="false" />
+	<file src="arquivos/7/camisa/camisa2/21.png" cache="false" />
+	<file src="arquivos/7/camisa/camisa2/22.png" cache="false" />
+	<file src="arquivos/7/camisa/camisa2/23.png" cache="false" />
+	<file src="arquivos/7/camisa/camisa2/24.png" cache="false" />
+	<file src="arquivos/7/camisa/camisa2/25.png" cache="false" />
+	<file src="arquivos/7/camisa/camisa2/26.png" cache="false" />
+	<file src="arquivos/7/camisa/camisa2/27.png" cache="false" />
+	<file src="arquivos/7/camisa/camisa2/28.png" cache="false" />
+	<file src="arquivos/7/camisa/camisa2/29.png" cache="false" />
+	<file src="arquivos/7/camisa/camisa2/30.png" cache="false" />
+	<file src="arquivos/7/camisa/camisa2/31.png" cache="false" />
+	<file src="arquivos/7/camisa/camisa2/32.png" cache="false" />
+	<file src="arquivos/7/camisa/camisa2/33.png" cache="false" />
+	<file src="arquivos/7/camisa/camisa2/34.png" cache="false" />
+	<file src="arquivos/7/camisa/camisa2/35.png" cache="false" />
+	<file src="arquivos/7/camisa/camisa2/36.png" cache="false" />
+	<file src="arquivos/7/camisa/camisa2/37.png" cache="false" />
+	<file src="arquivos/7/camisa/camisa2/38.png" cache="false" />
+	<file src="arquivos/7/camisa/camisa2/39.png" cache="false" />
+	<file src="arquivos/7/camisa/camisa2/40.png" cache="false" />
+
+
+	<!-- short -->
+	<file src="arquivos/7/perna/short/1.png" cache="false" />	
+	<file src="arquivos/7/perna/short/2.png" cache="false" />	
+	<file src="arquivos/7/perna/short/3.png" cache="false" />	
+	<file src="arquivos/7/perna/short/4.png" cache="false" />	
+	<file src="arquivos/7/perna/short/5.png" cache="false" />	
+	<file src="arquivos/7/perna/short/6.png" cache="false" />	
+	<file src="arquivos/7/perna/short/7.png" cache="false" />	
+	<file src="arquivos/7/perna/short/8.png" cache="false" />	
+	<file src="arquivos/7/perna/short/9.png" cache="false" />	
+	<file src="arquivos/7/perna/short/10.png" cache="false" />	
+	<file src="arquivos/7/perna/short/11.png" cache="false" />
+	<file src="arquivos/7/perna/short/12.png" cache="false" />	
+	<file src="arquivos/7/perna/short/13.png" cache="false" />	
+	<file src="arquivos/7/perna/short/14.png" cache="false" />	
+	<file src="arquivos/7/perna/short/15.png" cache="false" />	
+	<file src="arquivos/7/perna/short/16.png" cache="false" />	
+	<file src="arquivos/7/perna/short/17.png" cache="false" />
+	<file src="arquivos/7/perna/short/18.png" cache="false" />	
+	<file src="arquivos/7/perna/short/19.png" cache="false" />	
+	<!-- cueca-->
+	<file src="arquivos/7/perna/cueca/1.png" cache="false" />
+	<file src="arquivos/7/perna/cueca/2.png" cache="false" />
+	<file src="arquivos/7/perna/cueca/3.png" cache="false" />	
+	<file src="arquivos/7/perna/cueca/4.png" cache="false" />
+
+	<!-- sapatos -->
+	<file src="arquivos/7/sapato/tenis/1.png" cache="false" />
+	<file src="arquivos/7/sapato/tenis/2.png" cache="false" />	
+	<file src="arquivos/7/sapato/tenis/3.png" cache="false" />
+	<file src="arquivos/7/sapato/tenis/4.png" cache="false" />
+	<file src="arquivos/7/sapato/tenis/5.png" cache="false" />	
+	<file src="arquivos/7/sapato/tenis/6.png" cache="false" />
+	<file src="arquivos/7/sapato/tenis/7.png" cache="false" />
+	<file src="arquivos/7/sapato/tenis/8.png" cache="false" />	
+	<file src="arquivos/7/sapato/tenis/9.png" cache="false" />
+
+
+	<file src="arquivos/7/texturaPele/perna/1/padrao.png" cache="false" />
+	<file src="arquivos/7/texturaPele/perna/1/calca.png" cache="false" />
+	<file src="arquivos/7/texturaPele/perna/1/short.png" cache="false" />
+
+	<file src="arquivos/7/texturaPele/perna/2/padrao.png" cache="false" />
+	<file src="arquivos/7/texturaPele/perna/2/calca.png" cache="false" />
+	<file src="arquivos/7/texturaPele/perna/2/short.png" cache="false" />
+
+
+	<file src="arquivos/7/texturaPele/perna/3/padrao.png" cache="false" />
+	<file src="arquivos/7/texturaPele/perna/3/calca.png" cache="false" />
+	<file src="arquivos/7/texturaPele/perna/3/short.png" cache="false" />
+
+	<file src="arquivos/7/texturaPele/corpo/1/padrao.png" cache="false" />
+	<file src="arquivos/7/texturaPele/corpo/1/camisa1.png" cache="false" />
+	<file src="arquivos/7/texturaPele/corpo/1/camisa2.png" cache="false" />
+	<file src="arquivos/7/texturaPele/corpo/1/casaco.png" cache="false" />
+
+	
+	<file src="arquivos/7/texturaPele/corpo/2/padrao.png" cache="false" />
+	<file src="arquivos/7/texturaPele/corpo/2/camisa1.png" cache="false" />
+	<file src="arquivos/7/texturaPele/corpo/2/camisa2.png" cache="false" />
+	<file src="arquivos/7/texturaPele/corpo/2/casaco.png" cache="false" />
+
+	<file src="arquivos/7/texturaPele/corpo/3/padrao.png" cache="false" />
+	<file src="arquivos/7/texturaPele/corpo/3/camisa1.png" cache="false" />
+	<file src="arquivos/7/texturaPele/corpo/3/camisa2.png" cache="false" />
+	<file src="arquivos/7/texturaPele/corpo/3/casaco.png" cache="false" />
+
+	<file src="arquivos/7/texturaPele/pe/1/padrao.png" cache="false" />
+	<file src="arquivos/7/texturaPele/pe/1/sem.png" cache="false" />
+		
+
+	<file src="arquivos/7/texturaPele/pe/2/padrao.png" cache="false" />
+	<file src="arquivos/7/texturaPele/pe/3/padrao.png" cache="false" />
+
+	<file src="arquivos/7/texturaPele/face/1/1.png" cache="false" />
+	<file src="arquivos/7/texturaPele/face/1/2.png" cache="false" />
+	<file src="arquivos/7/texturaPele/face/1/3.png" cache="false" />
+	<file src="arquivos/7/texturaPele/face/1/4.png" cache="false" />
+	<file src="arquivos/7/texturaPele/face/1/5.png" cache="false" />
+	<file src="arquivos/7/texturaPele/face/1/6.png" cache="false" />
+	<file src="arquivos/7/texturaPele/face/1/7.png" cache="false" />
+	<file src="arquivos/7/texturaPele/face/1/8.png" cache="false" />
+	<file src="arquivos/7/texturaPele/face/1/9.png" cache="false" />
+	<file src="arquivos/7/texturaPele/face/1/10.png" cache="false" />
+	<file src="arquivos/7/texturaPele/face/2/1.png" cache="false" />
+	<file src="arquivos/7/texturaPele/face/2/2.png" cache="false" />
+	<file src="arquivos/7/texturaPele/face/2/3.png" cache="false" />
+	<file src="arquivos/7/texturaPele/face/2/4.png" cache="false" />
+	<file src="arquivos/7/texturaPele/face/2/5.png" cache="false" />
+	<file src="arquivos/7/texturaPele/face/2/6.png" cache="false" />
+	<file src="arquivos/7/texturaPele/face/2/7.png" cache="false" />
+	<file src="arquivos/7/texturaPele/face/2/8.png" cache="false" />
+	<file src="arquivos/7/texturaPele/face/2/9.png" cache="false" />
+	<file src="arquivos/7/texturaPele/face/2/10.png" cache="false" />
+	<file src="arquivos/7/texturaPele/face/3/1.png" cache="false" />
+	<file src="arquivos/7/texturaPele/face/3/2.png" cache="false" />
+	<file src="arquivos/7/texturaPele/face/3/3.png" cache="false" />
+	<file src="arquivos/7/texturaPele/face/3/4.png" cache="false" />
+	<file src="arquivos/7/texturaPele/face/3/5.png" cache="false" />
+	<file src="arquivos/7/texturaPele/face/3/6.png" cache="false" />
+	<file src="arquivos/7/texturaPele/face/3/7.png" cache="false" />
+	<file src="arquivos/7/texturaPele/face/3/8.png" cache="false" />
+	<file src="arquivos/7/texturaPele/face/3/9.png" cache="false" />
+	<file src="arquivos/7/texturaPele/face/3/10.png" cache="false" />
+
+
+		<!--Feminino -->
+	<file src="arquivos/10/cabelo/cabelo1/1.png" cache="false" />
+	<file src="arquivos/10/cabelo/cabelo1/2.png" cache="false" />
+	<file src="arquivos/10/cabelo/cabelo1/3.png" cache="false" />
+	<file src="arquivos/10/cabelo/cabelo1/4.png" cache="false" />
+	<file src="arquivos/10/cabelo/cabelo1/5.png" cache="false" />
+	<file src="arquivos/10/cabelo/cabelo1/6.png" cache="false" />
+	<file src="arquivos/10/cabelo/cabelo1/7.png" cache="false" />
+	<file src="arquivos/10/cabelo/cabelo1/8.png" cache="false" />
+	<file src="arquivos/10/cabelo/cabelo1/9.png" cache="false" />
+	<file src="arquivos/10/cabelo/cabelo2/1.png" cache="false" />
+	<file src="arquivos/10/cabelo/cabelo2/2.png" cache="false" />
+	<file src="arquivos/10/cabelo/cabelo2/3.png" cache="false" />
+	<file src="arquivos/10/cabelo/cabelo2/4.png" cache="false" />
+	<file src="arquivos/10/cabelo/cabelo2/5.png" cache="false" />
+	<file src="arquivos/10/cabelo/cabelo2/6.png" cache="false" />
+	<file src="arquivos/10/cabelo/cabelo2/7.png" cache="false" />
+	<file src="arquivos/10/cabelo/cabelo2/8.png" cache="false" />
+	<file src="arquivos/10/cabelo/cabelo3/1.png" cache="false" />
+	<file src="arquivos/10/cabelo/cabelo3/2.png" cache="false" />
+	<file src="arquivos/10/cabelo/cabelo3/3.png" cache="false" />
+	<file src="arquivos/10/cabelo/cabelo3/4.png" cache="false" />
+	<file src="arquivos/10/cabelo/cabelo3/5.png" cache="false" />
+	<file src="arquivos/10/cabelo/cabelo3/6.png" cache="false" />
+	<file src="arquivos/10/cabelo/cabelo3/7.png" cache="false" />
+	<file src="arquivos/10/cabelo/cabelo3/8.png" cache="false" />
+
+	<!-- Camisa Padrao -->
+	<file src="arquivos/10/camisa/padrao/1.png" cache="false" />
+	<file src="arquivos/10/camisa/padrao/2.png" cache="false" />
+	<file src="arquivos/10/camisa/padrao/3.png" cache="false" />
+	<file src="arquivos/10/camisa/padrao/4.png" cache="false" />
+	<file src="arquivos/10/camisa/padrao/5.png" cache="false" />
+	<file src="arquivos/10/camisa/padrao/6.png" cache="false" />
+	<file src="arquivos/10/camisa/padrao/7.png" cache="false" />
+	<file src="arquivos/10/camisa/padrao/8.png" cache="false" />
+	<file src="arquivos/10/camisa/padrao/9.png" cache="false" />
+	<file src="arquivos/10/camisa/padrao/10.png" cache="false" />
+	<file src="arquivos/10/camisa/padrao/11.png" cache="false" />
+	<file src="arquivos/10/camisa/padrao/12.png" cache="false" />
+	<file src="arquivos/10/camisa/padrao/13.png" cache="false" />
+	<file src="arquivos/10/camisa/padrao/14.png" cache="false" />
+	<file src="arquivos/10/camisa/padrao/15.png" cache="false" />
+	<file src="arquivos/10/camisa/padrao/16.png" cache="false" />
+	<file src="arquivos/10/camisa/padrao/17.png" cache="false" />
+	<file src="arquivos/10/camisa/padrao/18.png" cache="false" />
+	<file src="arquivos/10/camisa/padrao/19.png" cache="false" />
+	<file src="arquivos/10/camisa/padrao/20.png" cache="false" />
+	<file src="arquivos/10/camisa/padrao/21.png" cache="false" />
+	<file src="arquivos/10/camisa/padrao/22.png" cache="false" />
+	<file src="arquivos/10/camisa/padrao/23.png" cache="false" />
+	<file src="arquivos/10/camisa/padrao/24.png" cache="false" />
+	<file src="arquivos/10/camisa/padrao/25.png" cache="false" />
+	<file src="arquivos/10/camisa/padrao/26.png" cache="false" />
+	<file src="arquivos/10/camisa/padrao/27.png" cache="false" />
+	<file src="arquivos/10/camisa/padrao/28.png" cache="false" />
+	<file src="arquivos/10/camisa/padrao/29.png" cache="false" />
+	<file src="arquivos/10/camisa/padrao/30.png" cache="false" />
+	<file src="arquivos/10/camisa/padrao/31.png" cache="false" />
+	<file src="arquivos/10/camisa/padrao/32.png" cache="false" />
+	<file src="arquivos/10/camisa/padrao/33.png" cache="false" />
+	<file src="arquivos/10/camisa/padrao/34.png" cache="false" />
+	<file src="arquivos/10/camisa/padrao/35.png" cache="false" />
+	<file src="arquivos/10/camisa/padrao/36.png" cache="false" />
+	<file src="arquivos/10/camisa/padrao/37.png" cache="false" />
+	<file src="arquivos/10/camisa/padrao/38.png" cache="false" />
+	<file src="arquivos/10/camisa/padrao/39.png" cache="false" />
+	<file src="arquivos/10/camisa/padrao/40.png" cache="false" />
+	<file src="arquivos/10/camisa/padrao/41.png" cache="false" />
+	<file src="arquivos/10/camisa/padrao/42.png" cache="false" />
+	<file src="arquivos/10/camisa/padrao/43.png" cache="false" />
+
+<!-- Camisa Exclusivas 3 -->
+	<file src="arquivos/10/camisa/top3/1.png" cache="false" />
+	<file src="arquivos/10/camisa/top3/2.png" cache="false" />
+	<file src="arquivos/10/camisa/top3/3.png" cache="false" />
+	<file src="arquivos/10/camisa/top3/4.png" cache="false" />
+	<file src="arquivos/10/camisa/top3/5.png" cache="false" />
+	<file src="arquivos/10/camisa/top3/6.png" cache="false" />
+	<file src="arquivos/10/camisa/top3/7.png" cache="false" />
+	<file src="arquivos/10/camisa/top3/8.png" cache="false" />
+	<file src="arquivos/10/camisa/top3/9.png" cache="false" />
+	<file src="arquivos/10/camisa/top3/10.png" cache="false" />
+	<file src="arquivos/10/camisa/top3/11.png" cache="false" />
+	<file src="arquivos/10/camisa/top3/12.png" cache="false" />
+	<file src="arquivos/10/camisa/top3/13.png" cache="false" />
+	<file src="arquivos/10/camisa/top3/14.png" cache="false" />
+	<file src="arquivos/10/camisa/top3/15.png" cache="false" />
+	<file src="arquivos/10/camisa/top3/16.png" cache="false" />
+	<file src="arquivos/10/camisa/top3/17.png" cache="false" />
+	<file src="arquivos/10/camisa/top3/18.png" cache="false" />
+	<file src="arquivos/10/camisa/top3/19.png" cache="false" />
+	<file src="arquivos/10/camisa/top3/20.png" cache="false" />
+	<file src="arquivos/10/camisa/top3/21.png" cache="false" />
+	<file src="arquivos/10/camisa/top3/22.png" cache="false" />
+	<file src="arquivos/10/camisa/top3/23.png" cache="false" />
+	<file src="arquivos/10/camisa/top3/24.png" cache="false" />
+
+	<file src="arquivos/10/perna/short/1.png" cache="false" />
+	<file src="arquivos/10/perna/short/2.png" cache="false" />
+	<file src="arquivos/10/perna/short/3.png" cache="false" />
+	<file src="arquivos/10/perna/short/4.png" cache="false" />
+	<file src="arquivos/10/perna/short/5.png" cache="false" />
+	<file src="arquivos/10/perna/short/6.png" cache="false" />
+	<file src="arquivos/10/perna/short/7.png" cache="false" />
+	<file src="arquivos/10/perna/short/8.png" cache="false" />
+	<file src="arquivos/10/perna/short/9.png" cache="false" />
+	<file src="arquivos/10/perna/short/10.png" cache="false" />
+	<file src="arquivos/10/perna/short/11.png" cache="false" />
+	<file src="arquivos/10/perna/calcinha/1.png" cache="false" />
+	<file src="arquivos/10/perna/calcinha/2.png" cache="false" />
+	<file src="arquivos/10/perna/calcinha/3.png" cache="false" />
+	<file src="arquivos/10/perna/calcinha/4.png" cache="false" />
+	<file src="arquivos/10/perna/calcinha/5.png" cache="false" />
+	<file src="arquivos/10/perna/calcinha/6.png" cache="false" />
+	<file src="arquivos/10/perna/calcinha/7.png" cache="false" />
+	<file src="arquivos/10/perna/calcinha/8.png" cache="false" />
+
+	<!-- Partes do Corpo	 -->
+	<file src="arquivos/10/texturaPele/perna/1/padrao.png" cache="false" />
+	<file src="arquivos/10/texturaPele/perna/1/calca.png" cache="false" />
+
+	<file src="arquivos/10/texturaPele/perna/2/padrao.png" cache="false" />
+	<file src="arquivos/10/texturaPele/perna/2/calca.png" cache="false" />
+
+	<file src="arquivos/10/texturaPele/perna/3/padrao.png" cache="false" />
+	<file src="arquivos/10/texturaPele/perna/3/calca.png" cache="false" />
+
+	<file src="arquivos/10/texturaPele/corpo/1/padrao.png" cache="false" />
+	<file src="arquivos/10/texturaPele/corpo/1/casaco.png" cache="false" />
+	<file src="arquivos/10/texturaPele/corpo/1/top2.png" cache="false" />
+	<file src="arquivos/10/texturaPele/corpo/1/top3.png" cache="false" />
+
+	<file src="arquivos/10/texturaPele/corpo/2/padrao.png" cache="false" />
+	<file src="arquivos/10/texturaPele/corpo/2/casaco.png" cache="false" />
+	<file src="arquivos/10/texturaPele/corpo/2/top2.png" cache="false" />
+	<file src="arquivos/10/texturaPele/corpo/2/top3.png" cache="false" />
+
+	<file src="arquivos/10/texturaPele/corpo/3/padrao.png" cache="false" />
+	<file src="arquivos/10/texturaPele/corpo/3/casaco.png" cache="false" />
+	<file src="arquivos/10/texturaPele/corpo/3/top2.png" cache="false" />
+	<file src="arquivos/10/texturaPele/corpo/3/top3.png" cache="false" />
+	<file src="arquivos/10/texturaPele/pe/1/padrao.png" cache="false" />
+	<file src="arquivos/10/texturaPele/pe/1/sapato.png" cache="false" />
+	<file src="arquivos/10/texturaPele/pe/2/padrao.png" cache="false" />
+	<file src="arquivos/10/texturaPele/pe/2/sapato.png" cache="false" />
+	<file src="arquivos/10/texturaPele/pe/3/padrao.png" cache="false" />
+	<file src="arquivos/10/texturaPele/pe/3/sapato.png" cache="false" />
+
+
+	<file src="arquivos/10/texturaPele/face/1/padrao.png" cache="false" />
+	<file src="arquivos/10/texturaPele/face/1/1.png" cache="false" />
+	<file src="arquivos/10/texturaPele/face/1/2.png" cache="false" />
+	<file src="arquivos/10/texturaPele/face/1/3.png" cache="false" />
+	<file src="arquivos/10/texturaPele/face/1/4.png" cache="false" />
+	<file src="arquivos/10/texturaPele/face/1/5.png" cache="false" />
+	<file src="arquivos/10/texturaPele/face/1/6.png" cache="false" />
+	<file src="arquivos/10/texturaPele/face/1/7.png" cache="false" />
+	<file src="arquivos/10/texturaPele/face/2/padrao.png" cache="false" />
+	<file src="arquivos/10/texturaPele/face/2/1.png" cache="false" />
+	<file src="arquivos/10/texturaPele/face/2/2.png" cache="false" />
+	<file src="arquivos/10/texturaPele/face/2/3.png" cache="false" />
+	<file src="arquivos/10/texturaPele/face/2/4.png" cache="false" />
+	<file src="arquivos/10/texturaPele/face/2/5.png" cache="false" />
+	<file src="arquivos/10/texturaPele/face/2/6.png" cache="false" />
+	<file src="arquivos/10/texturaPele/face/2/7.png" cache="false" />
+	<file src="arquivos/10/texturaPele/face/3/padrao.png" cache="false" />
+	<file src="arquivos/10/texturaPele/face/3/1.png" cache="false" />
+	<file src="arquivos/10/texturaPele/face/3/2.png" cache="false" />
+	<file src="arquivos/10/texturaPele/face/3/3.png" cache="false" />
+	<file src="arquivos/10/texturaPele/face/3/4.png" cache="false" />
+	<file src="arquivos/10/texturaPele/face/3/5.png" cache="false" />
+	<file src="arquivos/10/texturaPele/face/3/6.png" cache="false" />
+	<file src="arquivos/10/texturaPele/face/3/7.png" cache="false" />
+
+	<!-- Partes Comum-->
+	<file src="arquivos/PartesComum/sapato/allStar/1.png" cache="false" />
+	<file src="arquivos/PartesComum/sapato/allStar/2.png" cache="false" />
+	<file src="arquivos/PartesComum/sapato/allStar/3.png" cache="false" />
+	<file src="arquivos/PartesComum/sapato/allStar/4.png" cache="false" />
+	<file src="arquivos/PartesComum/sapato/allStar/5.png" cache="false" />
+	<file src="arquivos/PartesComum/sapato/allStar/6.png" cache="false" />
+	<file src="arquivos/PartesComum/sapato/allStar/7.png" cache="false" />
+	<file src="arquivos/PartesComum/sapato/allStar/8.png" cache="false" />
+	<file src="arquivos/PartesComum/sapato/allStar/9.png" cache="false" />
+	<file src="arquivos/PartesComum/sapato/tubarao/1.png" cache="false" />
+	<file src="arquivos/PartesComum/sapato/tubarao/2.png" cache="false" />
+	<file src="arquivos/PartesComum/sapato/tubarao/3.png" cache="false" />
+	<file src="arquivos/PartesComum/sapato/tubarao/4.png" cache="false" />
+	<file src="arquivos/PartesComum/sapato/tubarao/5.png" cache="false" />
+	<file src="arquivos/PartesComum/sapato/tubarao/6.png" cache="false" />
+	<file src="arquivos/PartesComum/sapato/sandalia/1.png" cache="false" />
+	<file src="arquivos/PartesComum/sapato/sandalia/2.png" cache="false" />
+	<file src="arquivos/PartesComum/sapato/sandalia/3.png" cache="false" />
+	<file src="arquivos/PartesComum/sapato/sandalia/4.png" cache="false" />
+	<file src="arquivos/PartesComum/sapato/sandalia/5.png" cache="false" />
+	<file src="arquivos/PartesComum/sapato/sandalia/6.png" cache="false" />
+	<file src="arquivos/PartesComum/sapato/sandalia/7.png" cache="false" />
+	<file src="arquivos/PartesComum/sapato/sandalia/8.png" cache="false" />
+	<file src="arquivos/PartesComum/sapato/sandalia/9.png" cache="false" />
+	<file src="arquivos/PartesComum/oculos/juju/1.png" cache="false" />
+	<file src="arquivos/PartesComum/oculos/juju/2.png" cache="false" />
+	<file src="arquivos/PartesComum/oculos/juju/3.png" cache="false" />	
+	<file src="arquivos/PartesComum/oculos/juju/4.png" cache="false" />
+	<file src="arquivos/PartesComum/oculos/juju/5.png" cache="false" />
+	<file src="arquivos/PartesComum/oculos/juju/6.png" cache="false" />
+	<file src="arquivos/PartesComum/oculos/juju/7.png" cache="false" />	
+	<file src="arquivos/PartesComum/oculos/juju/8.png" cache="false" />
+	<file src="arquivos/PartesComum/oculos/xsquared/1.png" cache="false" />
+	<file src="arquivos/PartesComum/oculos/xsquared/2.png" cache="false" />
+	<file src="arquivos/PartesComum/oculos/xsquared/3.png" cache="false" />	
+	<file src="arquivos/PartesComum/oculos/xsquared/4.png" cache="false" />
+	<file src="arquivos/PartesComum/oculos/xsquared/5.png" cache="false" />
+	<file src="arquivos/PartesComum/oculos/xsquared/6.png" cache="false" />
+	<file src="arquivos/PartesComum/oculos/xsquared/7.png" cache="false" />	
+	<file src="arquivos/PartesComum/oculos/xsquared/8.png" cache="false" />
+	<file src="arquivos/PartesComum/mascara/padrao/1.png" cache="false" />
+	<file src="arquivos/PartesComum/mascara/padrao/2.png" cache="false" />
+	<file src="arquivos/PartesComum/mascara/padrao/3.png" cache="false" />
+	<file src="arquivos/PartesComum/mascara/padrao/4.png" cache="false" />
+	<file src="arquivos/PartesComum/mascara/padrao/5.png" cache="false" />
+	<file src="arquivos/PartesComum/mascara/padrao/6.png" cache="false" />
+	<file src="arquivos/PartesComum/mascara/padrao/7.png" cache="false" />
+	<file src="arquivos/PartesComum/mascara/padrao/8.png" cache="false" />
+	<file src="arquivos/PartesComum/mascara/padrao/9.png" cache="false" />
+	<file src="arquivos/PartesComum/mascara/bandana/1.png" cache="false" />
+	<file src="arquivos/PartesComum/mascara/bandana/2.png" cache="false" />
+	<file src="arquivos/PartesComum/mascara/bandana/3.png" cache="false" />
+	<file src="arquivos/PartesComum/mascara/bandana/4.png" cache="false" />
+	<file src="arquivos/PartesComum/mascara/bandana/5.png" cache="false" />
+	<file src="arquivos/PartesComum/mascara/bandana/6.png" cache="false" />
+	<file src="arquivos/PartesComum/mascara/bandana/7.png" cache="false" />
+	<file src="arquivos/PartesComum/mascara/bandana/8.png" cache="false" />
+	<file src="arquivos/PartesComum/mascara/bandana/9.png" cache="false" />
+	<file src="arquivos/PartesComum/mochila/paraquedas/1.png" cache="false" />	
+	<file src="arquivos/PartesComum/mochila/paraquedas/2.png" cache="false" />	
+	<file src="arquivos/PartesComum/mochila/paraquedas/3.png" cache="false" />	
+	<file src="arquivos/PartesComum/mochila/paraquedas/4.png" cache="false" />	
+	<file src="arquivos/PartesComum/mochila/paraquedas/5.png" cache="false" />	
+	<file src="arquivos/PartesComum/mochila/paraquedas/6.png" cache="false" />	
+	<file src="arquivos/PartesComum/mochila/paraquedas/7.png" cache="false" />	
+	<file src="arquivos/PartesComum/mochila/paraquedas/8.png" cache="false" />	
+	<file src="arquivos/PartesComum/mochila/paraquedas/9.png" cache="false" />	
+	<file src="arquivos/PartesComum/mochila/paraquedas/10.png" cache="false" />	
+	<file src="arquivos/PartesComum/mochila/paraquedas/11.png" cache="false" />	
+	<file src="arquivos/PartesComum/mochila/paraquedas/12.png" cache="false" />	
+	<file src="arquivos/PartesComum/mochila/paraquedas/13.png" cache="false" />	
+	<file src="arquivos/PartesComum/mochila/paraquedas/14.png" cache="false" />	
+		<!-- casaco  -->
+	<file src="arquivos/PartesComum/camisa/casaco/1.png" cache="false" />
+	<file src="arquivos/PartesComum/camisa/casaco/2.png" cache="false" />
+	<file src="arquivos/PartesComum/camisa/casaco/3.png" cache="false" />
+	<file src="arquivos/PartesComum/camisa/casaco/4.png" cache="false" />
+	<file src="arquivos/PartesComum/camisa/casaco/5.png" cache="false" />
+	<file src="arquivos/PartesComum/camisa/casaco/6.png" cache="false" />
+	<file src="arquivos/PartesComum/camisa/casaco/7.png" cache="false" />
+	<file src="arquivos/PartesComum/camisa/casaco/8.png" cache="false" />
+	<file src="arquivos/PartesComum/camisa/casaco/9.png" cache="false" />
+	<file src="arquivos/PartesComum/camisa/casaco/10.png" cache="false" />
+	<file src="arquivos/PartesComum/camisa/casaco/11.png" cache="false" />
+	<file src="arquivos/PartesComum/camisa/casaco/12.png" cache="false" />
+	<file src="arquivos/PartesComum/camisa/casaco/13.png" cache="false" />
+	<file src="arquivos/PartesComum/camisa/casaco/14.png" cache="false" />
+	<file src="arquivos/PartesComum/camisa/casaco/15.png" cache="false" />
+	<file src="arquivos/PartesComum/camisa/casaco/16.png" cache="false" />
+	<file src="arquivos/PartesComum/camisa/casaco/17.png" cache="false" />
+	<file src="arquivos/PartesComum/camisa/casaco/18.png" cache="false" />
+	<file src="arquivos/PartesComum/camisa/casaco/19.png" cache="false" />
+	<file src="arquivos/PartesComum/camisa/casaco/20.png" cache="false" />
+	<!-- calca-->
+	<file src="arquivos/PartesComum/perna/calca/1.png" cache="false" />
+	<file src="arquivos/PartesComum/perna/calca/2.png" cache="false" />
+	<file src="arquivos/PartesComum/perna/calca/3.png" cache="false" />
+	<file src="arquivos/PartesComum/perna/calca/4.png" cache="false" />
+	<file src="arquivos/PartesComum/perna/calca/5.png" cache="false" />
+	<file src="arquivos/PartesComum/perna/calca/6.png" cache="false" />
+	<file src="arquivos/PartesComum/perna/calca/7.png" cache="false" />
+	<file src="arquivos/PartesComum/perna/calca/8.png" cache="false" />
+	<file src="arquivos/PartesComum/perna/calca/9.png" cache="false" />
+	<file src="arquivos/PartesComum/perna/calca/10.png" cache="false" />
+	<file src="arquivos/PartesComum/perna/calca/11.png" cache="false" />
+	<file src="arquivos/PartesComum/perna/calca/12.png" cache="false" />
+
+
+	<export function="getApplyShader" type="server" />
+	<export function="returnChothePlayer" type="server" />	
+	<export function="AplicChothePlayerForPlayer" type="server" />	
+	<export function="changerPele" type="server" />	
+	<export function="Savechothe" type="server" />	
+	<export function="LoadChothe" type="server" />
+
+</meta>

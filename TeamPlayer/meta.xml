@@ -1,0 +1,10 @@
+<<<<<<< HEAD
+<meta>
+    <script src="server.lua" type="server" />
+    <script src="client.lua" type="client" />
+=======
+<meta>
+    <script src="server.lua" type="server" />
+    <script src="client.lua" type="client" />
+>>>>>>> 35e5882026fc092c12bf75afcd6f6f52dd67ed9a
+</meta>
